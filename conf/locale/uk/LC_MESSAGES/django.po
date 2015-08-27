@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: RatticWeb\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-17 09:20+1000\n"
-"PO-Revision-Date: 2015-08-27 16:16+0200\n"
+"PO-Revision-Date: 2015-08-27 17:28+0200\n"
 "Last-Translator: Val Budkin <val.budkin@gmail.com>\n"
 "Language-Team: uk <val.budkin@gmail.com>\n"
 "Language: uk\n"
@@ -200,11 +200,11 @@ msgstr "Назва ключа"
 
 #: account/templates/account_profile.html:52
 msgid "Date generated"
-msgstr ""
+msgstr "Згенеровано"
 
 #: account/templates/account_profile.html:53
 msgid "Expiry date"
-msgstr ""
+msgstr "Дата застарівання"
 
 #: account/templates/account_profile.html:73
 msgid "No API Keys available yet"
@@ -212,7 +212,7 @@ msgstr ""
 
 #: account/templates/account_profile.html:77
 msgid "Current Sessions"
-msgstr ""
+msgstr "Поточні сесії"
 
 #: account/templates/account_profile.html:82
 msgid "Device"
@@ -228,7 +228,7 @@ msgstr "Остання активність"
 
 #: account/templates/account_profile.html:95
 msgid "(This Session)"
-msgstr ""
+msgstr "(Ця сесія)"
 
 #: account/templates/account_tfa_backup_tokens.html:5
 msgid "Backup Tokens"
@@ -261,7 +261,7 @@ msgstr ""
 
 #: account/templates/account_tfa_disable.html:5
 msgid "Disable Two-factor Authentication"
-msgstr ""
+msgstr "Відключити двофакторну авторизацію"
 
 #: account/templates/account_tfa_disable.html:6
 msgid ""
@@ -369,7 +369,7 @@ msgstr ""
 
 #: account/templates/account_viewapikey.html:14
 msgid "Your new API key has been created."
-msgstr ""
+msgstr "Ваш новий API ключ створено."
 
 #: account/templates/account_viewapikey.html:18
 msgid "Secret Key"
@@ -377,11 +377,11 @@ msgstr "Секретний ключ"
 
 #: account/templates/account_viewapikey.html:21
 msgid "Back to Profile"
-msgstr ""
+msgstr "Назад до профілю"
 
 #: account/templates/password_reset.html:5
 msgid "Reset Password"
-msgstr ""
+msgstr "Скинути пароль"
 
 #: account/templates/password_reset.html:8
 msgid ""
@@ -422,7 +422,7 @@ msgstr "Змінити мій пароль"
 
 #: account/templates/password_reset_confirm.html:32
 msgid "Password reset unsuccessful"
-msgstr ""
+msgstr "Скидання пароля неуспішно"
 
 #: account/templates/password_reset_confirm.html:33
 msgid ""
@@ -432,7 +432,7 @@ msgstr ""
 
 #: account/templates/password_reset_done.html:5
 msgid "Password reset successful"
-msgstr ""
+msgstr "Скидання пароля пройшло успішно"
 
 #: account/templates/password_reset_done.html:8
 msgid ""
@@ -565,17 +565,17 @@ msgstr "Усі паролі"
 #: cred/views.py:108
 #, python-format
 msgid "Passwords tagged with %(tagname)s"
-msgstr ""
+msgstr "Паролі з тагами %(tagname)s"
 
 #: cred/views.py:112
 #, python-format
 msgid "Passwords in group %(groupname)s"
-msgstr ""
+msgstr "Паролі в групі %(groupname)s"
 
 #: cred/views.py:116
 #, python-format
 msgid "Passwords for search \"%(searchstring)s\""
-msgstr ""
+msgstr "Паролі знайдені \"%(searchstring)s\""
 
 #: cred/views.py:120
 #, python-format
@@ -608,7 +608,7 @@ msgstr "Невідомо (журнал знищено)"
 
 #: cred/widgets.py:15
 msgid "Choose"
-msgstr ""
+msgstr "Оберіть"
 
 #: cred/templates/cred_detail.html:16
 msgid ""
@@ -643,7 +643,7 @@ msgstr ""
 
 #: cred/templates/cred_detail.html:25
 msgid "Change Required"
-msgstr ""
+msgstr "Необхідні зміни"
 
 #: cred/templates/cred_detail.html:25
 msgid ""
@@ -740,7 +740,7 @@ msgstr "Додати новий"
 
 #: cred/templates/cred_list.html:40
 msgid "Apply a Tag"
-msgstr "Примінити тег"
+msgstr "Застосувати тег"
 
 #: cred/templates/cred_list.html:43
 msgid "Download Keepass"
@@ -808,11 +808,11 @@ msgstr "Генератор паролів"
 
 #: cred/templates/cred_part_passgenmodal.html:9
 msgid "Must Have"
-msgstr ""
+msgstr "Повинен мати"
 
 #: cred/templates/cred_part_passgenmodal.html:9
 msgid "Can Have"
-msgstr ""
+msgstr "Може мати"
 
 #: cred/templates/cred_part_passgenmodal.html:13
 msgid "Lowercase Alphabet"
@@ -844,16 +844,16 @@ msgstr "Відмінити"
 
 #: cred/templates/cred_part_passgenmodal.html:40
 msgid "Generate"
-msgstr ""
+msgstr "Генерувати"
 
 #: cred/templates/cred_search.html:9
 msgid "Type your Query"
-msgstr ""
+msgstr "Введіть ваш запит"
 
 #: cred/templates/cred_search.html:10 ratticweb/templates/navbar.html:71
 #: ratticweb/templates/navbar.html.py:97
 msgid "Search"
-msgstr ""
+msgstr "Пошук"
 
 #: cred/templates/cred_tagdelete.html:7
 msgid "Deleting tag"
@@ -866,7 +866,7 @@ msgstr ""
 #: cred/templates/cred_taglist.html:9
 #: staff/templates/staff_import_overview.html:10
 msgid "Actions"
-msgstr ""
+msgstr "Дії"
 
 #: cred/templates/cred_taglist.html:17
 msgid "Rename"
@@ -882,7 +882,7 @@ msgstr "Журнал аудіту"
 
 #: cred/templates/credaudit_list.html:7 staff/templates/staff_audit.html:23
 msgid "Action"
-msgstr ""
+msgstr "Дія"
 
 #: cred/templates/credaudit_list.html:11 staff/templates/staff_audit.html:31
 msgid "Credential"
@@ -890,11 +890,11 @@ msgstr ""
 
 #: cred/templates/credaudit_list.html:13 staff/templates/staff_audit.html:33
 msgid "When"
-msgstr ""
+msgstr "Коли"
 
 #: cred/templates/credaudit_list.html:29
 msgid "More logs..."
-msgstr ""
+msgstr "Більше журналів…"
 
 #: ratticweb/settings.py:57
 msgid "English"
@@ -914,7 +914,7 @@ msgstr ""
 
 #: ratticweb/templates/404.html:6
 msgid "Page not found"
-msgstr ""
+msgstr "Сторінку не знайдено"
 
 #: ratticweb/templates/404.html:7
 msgid ""
@@ -966,7 +966,7 @@ msgstr ""
 
 #: ratticweb/templates/home.html:9
 msgid "Your username and password didn't match. Please try again."
-msgstr ""
+msgstr "Ваші ім´я користувача та пароль не підходять. Спробуйте ще раз."
 
 #: ratticweb/templates/home.html:13
 msgid "Welcome to Rattic"
@@ -995,19 +995,19 @@ msgstr "Керування користувачами"
 
 #: ratticweb/templates/navbar.html:30 ratticweb/templates/navbar.html.py:64
 msgid "Help"
-msgstr ""
+msgstr "Допомога"
 
 #: ratticweb/templates/navbar.html:37
 msgid "Menu"
-msgstr ""
+msgstr "Меню"
 
 #: ratticweb/templates/navbar.html:44
 msgid "All Passwords"
-msgstr ""
+msgstr "Усі паролі"
 
 #: ratticweb/templates/navbar.html:55 ratticweb/templates/sidebar.html:9
 msgid "Logout"
-msgstr ""
+msgstr "Вийти"
 
 #: ratticweb/templates/sidebar.html:6
 msgid "You"
@@ -1020,7 +1020,7 @@ msgstr "Ласкаво просимо, %(username)s."
 
 #: ratticweb/templates/sidebar.html:8
 msgid "Profile"
-msgstr ""
+msgstr "Профіль"
 
 #: ratticweb/templates/sidebar.html:15
 msgid "Add Favourite Tags on the "
@@ -1036,7 +1036,7 @@ msgstr "щоб бачити їх тут."
 
 #: ratticweb/templates/sidebar.html:22
 msgid "If you are a member of any groups, you will see them listed here. "
-msgstr ""
+msgstr "Якщо ви є членом однієї з груп, ви побачитиїх в цьому списку."
 
 #: ratticweb/templates/sidebar.html:31
 msgid "Forgotten password?"
@@ -1048,7 +1048,7 @@ msgstr ""
 
 #: staff/models.py:47
 msgid "Passwords do not match"
-msgstr ""
+msgstr "Паролі не співпадають"
 
 #: staff/models.py:83
 msgid "Could not read keepass file, the password you gave may not be correct."
@@ -1066,7 +1066,7 @@ msgstr "Журнал аудіту для пароля &apos;%(cred_title)s&apos;
 #: staff/templates/staff_audit.html:13
 #, python-format
 msgid "Audit Logs for user &apos;%(username)s&apos;"
-msgstr ""
+msgstr "Журнал подій для користувача &apos;%(username)s&apos;"
 
 #: staff/templates/staff_audit.html:16
 #, python-format
@@ -1076,7 +1076,7 @@ msgstr ""
 #: staff/templates/staff_changeadvice.html:6
 #, python-format
 msgid "Changes for user: %(username)s"
-msgstr ""
+msgstr "Зміни для користувача: %(username)s"
 
 #: staff/templates/staff_changeadvice.html:7
 msgid ""
@@ -1139,7 +1139,7 @@ msgstr "Переглянути корзину"
 
 #: staff/templates/staff_home.html:20
 msgid "Audit One Week"
-msgstr ""
+msgstr "Журнал за тиждень"
 
 #: staff/templates/staff_home.html:27
 msgid "email"
@@ -1147,7 +1147,7 @@ msgstr "email"
 
 #: staff/templates/staff_home.html:45
 msgid "Access Groups"
-msgstr ""
+msgstr "Групи доступу"
 
 #: staff/templates/staff_import_overview.html:6
 msgid "Import Overview"
