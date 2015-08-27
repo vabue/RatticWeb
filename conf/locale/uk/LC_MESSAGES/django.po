@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: RatticWeb\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-17 09:20+1000\n"
-"PO-Revision-Date: 2015-08-27 15:35+0200\n"
+"PO-Revision-Date: 2015-08-27 16:00+0200\n"
 "Last-Translator: Val Budkin <val.budkin@gmail.com>\n"
 "Language-Team: uk <val.budkin@gmail.com>\n"
 "Language: uk\n"
@@ -38,17 +38,17 @@ msgstr "Улюблені таги"
 #: account/templates/account_changepass.html:4
 #: account/templates/password_reset_confirm.html:4
 msgid "Setting New password"
-msgstr ""
+msgstr "Встановлення нового пароля"
 
 #: account/templates/account_changepass.html:7
 #: account/templates/password_reset_confirm.html:8
 msgid "Please enter your new password twice."
-msgstr ""
+msgstr "Введіть ваш новий пароль двічі."
 
 #: account/templates/account_changepass.html:8
 #: account/templates/password_reset_confirm.html:9
 msgid "So we can verify you typed it in correctly."
-msgstr ""
+msgstr "Так ми зможемо перевірити коректність його вводу"
 
 #: account/templates/account_changepass.html:21
 msgid "Change Password"
@@ -99,16 +99,16 @@ msgstr "Помилка LDAP"
 
 #: account/templates/account_ldaperror.html:7
 msgid "Your LDAP server returned the following error:"
-msgstr ""
+msgstr "Ваш LDAP сервер повернул наступну помилку:"
 
 #: account/templates/account_ldaperror.html:8 cred/models.py:83
 #: cred/templates/cred_part_passgenmodal.html:9
 msgid "Description"
-msgstr ""
+msgstr "Опис"
 
 #: account/templates/account_ldaperror.html:9
 msgid "Further Info"
-msgstr ""
+msgstr "Подальша інформація"
 
 #: account/templates/account_newapikey.html:4
 #: account/templates/account_newapikey.html:7
@@ -196,7 +196,7 @@ msgstr "Ключи API"
 
 #: account/templates/account_profile.html:51
 msgid "Key Name"
-msgstr ""
+msgstr "Назва ключа"
 
 #: account/templates/account_profile.html:52
 msgid "Date generated"
@@ -216,15 +216,15 @@ msgstr ""
 
 #: account/templates/account_profile.html:82
 msgid "Device"
-msgstr ""
+msgstr "Пристрій"
 
 #: account/templates/account_profile.html:83
 msgid "IP Address"
-msgstr ""
+msgstr "IP адреса"
 
 #: account/templates/account_profile.html:84
 msgid "Last Activity"
-msgstr ""
+msgstr "Остання активність"
 
 #: account/templates/account_profile.html:95
 msgid "(This Session)"
@@ -321,7 +321,7 @@ msgstr ""
 
 #: account/templates/account_tfa_setup.html:5
 msgid "Enable Two-Factor Authentication"
-msgstr ""
+msgstr "Увімкнути двофакторну авторизацію"
 
 #: account/templates/account_tfa_setup.html:7
 msgid ""
@@ -359,7 +359,7 @@ msgstr ""
 
 #: account/templates/account_viewapikey.html:10
 msgid "Warning!"
-msgstr ""
+msgstr "Увага!"
 
 #: account/templates/account_viewapikey.html:11
 msgid ""
@@ -373,7 +373,7 @@ msgstr ""
 
 #: account/templates/account_viewapikey.html:18
 msgid "Secret Key"
-msgstr ""
+msgstr "Секретний ключ"
 
 #: account/templates/account_viewapikey.html:21
 msgid "Back to Profile"
@@ -390,15 +390,15 @@ msgstr ""
 
 #: account/templates/password_reset.html:15
 msgid "E-mail address"
-msgstr ""
+msgstr "Email адреса"
 
 #: account/templates/password_reset.html:15
 msgid "Reset password"
-msgstr ""
+msgstr "Скинути пароль"
 
 #: account/templates/password_reset_complete.html:5
 msgid "Password reset complete"
-msgstr ""
+msgstr "Скидання паролю завершено"
 
 #: account/templates/password_reset_complete.html:8
 msgid "Your password has been set. You may go ahead and log in now."
@@ -472,11 +472,11 @@ msgstr ""
 #: cred/forms.py:33 cred/templates/cred_detail.html:70
 #: cred/templates/cred_list.html:67 cred/templates/cred_list.html.py:69
 msgid "Owner Group"
-msgstr ""
+msgstr "Група власника"
 
 #: cred/forms.py:34
 msgid "Viewers Groups"
-msgstr ""
+msgstr "Групи для перегляду"
 
 #: cred/forms.py:37
 msgid "Please enter a valid HTTP/HTTPS URL"
@@ -487,11 +487,11 @@ msgstr ""
 #: staff/templates/staff_changeadvice.html:19
 #: staff/templates/staff_import_overview.html:11
 msgid "Title"
-msgstr ""
+msgstr "Назва"
 
 #: cred/models.py:79 cred/templates/cred_detail.html:42
 msgid "URL"
-msgstr ""
+msgstr "Url"
 
 #: cred/models.py:81 cred/templates/cred_detail.html:54
 #: ratticweb/templates/sidebar.html:29
@@ -500,7 +500,7 @@ msgstr "Пароль"
 
 #: cred/models.py:82
 msgid "Markdown Description"
-msgstr ""
+msgstr "Опис в форматі Markdown"
 
 #: cred/models.py:84 staff/templates/staff_changeadvice.html:21
 #: staff/templates/staff_groupdetail.html:10
@@ -520,43 +520,43 @@ msgstr "Іконка"
 
 #: cred/models.py:88
 msgid "SSH key"
-msgstr ""
+msgstr "SSH ключ"
 
 #: cred/models.py:89 cred/templates/cred_detail.html:64
 msgid "Attachment"
-msgstr ""
+msgstr "Вкладення"
 
 #: cred/models.py:211
 msgid "Added"
-msgstr ""
+msgstr "Додано"
 
 #: cred/models.py:212
 msgid "Changed"
-msgstr ""
+msgstr "Змінено"
 
 #: cred/models.py:213
 msgid "Only Metadata Changed"
-msgstr ""
+msgstr "Змінено тільки метадані"
 
 #: cred/models.py:214
 msgid "Only Details Viewed"
-msgstr ""
+msgstr "Переглянуто тільки інформацію"
 
 #: cred/models.py:215
 msgid "Exported"
-msgstr ""
+msgstr "Експортовано"
 
 #: cred/models.py:216
 msgid "Deleted"
-msgstr ""
+msgstr "Знищено"
 
 #: cred/models.py:217
 msgid "Scheduled For Change"
-msgstr ""
+msgstr "Заплановано для зміни"
 
 #: cred/models.py:218
 msgid "Password Viewed"
-msgstr ""
+msgstr "Переглянути пароль"
 
 #: cred/views.py:76
 msgid "All passwords"
@@ -600,11 +600,11 @@ msgstr "Паролі в корзині"
 
 #: cred/views.py:150
 msgid "Passwords on the Change Queue"
-msgstr ""
+msgstr "Паролі в черзі на зміну"
 
 #: cred/views.py:361 staff/views.py:352
 msgid "Unknown (Logs deleted)"
-msgstr ""
+msgstr "Невідомо (журнал знищено)"
 
 #: cred/widgets.py:15
 msgid "Choose"
@@ -708,7 +708,7 @@ msgstr ""
 
 #: cred/templates/cred_detail.html:71 cred/templates/cred_list.html:73
 msgid "Viewer Groups"
-msgstr ""
+msgstr "Групи для перегляду"
 
 #: cred/templates/cred_detail.html:81
 msgid "Last Changed"
@@ -732,7 +732,7 @@ msgstr "Редагувати пароль"
 #: staff/templates/staff_keepassimport.html:30
 #: staff/templates/staff_useredit.html:18
 msgid "Submit"
-msgstr ""
+msgstr "Відправити"
 
 #: cred/templates/cred_list.html:28 cred/templates/cred_taglist.html:8
 msgid "Add New"
@@ -744,7 +744,7 @@ msgstr "Примінити тег"
 
 #: cred/templates/cred_list.html:43
 msgid "Download Keepass"
-msgstr ""
+msgstr "Завантажити Keepass"
 
 #: cred/templates/cred_list.html:60 cred/templates/cred_list.html.py:62
 #: cred/templates/credaudit_list.html:9 staff/templates/staff_audit.html:28
@@ -770,7 +770,7 @@ msgstr ""
 
 #: cred/templates/cred_part_export.html:10
 msgid "Export to Keepass"
-msgstr ""
+msgstr "Експортувати в Keepass"
 
 #: cred/templates/cred_part_export.html:13
 msgid ""
@@ -796,11 +796,11 @@ msgstr "Додати новий тег"
 
 #: cred/templates/cred_part_newtagmodal.html:9
 msgid "Tag Name:"
-msgstr ""
+msgstr "Назва тега:"
 
 #: cred/templates/cred_part_newtagmodal.html:12
 msgid "Create Another"
-msgstr ""
+msgstr "Створити ще один"
 
 #: cred/templates/cred_part_passgenmodal.html:5
 msgid "Password Generator"
@@ -870,15 +870,15 @@ msgstr ""
 
 #: cred/templates/cred_taglist.html:17
 msgid "Rename"
-msgstr ""
+msgstr "Перейменувати"
 
 #: cred/templates/cred_tags.html:7
 msgid "All Tags"
-msgstr ""
+msgstr "Усі таги"
 
 #: cred/templates/credaudit_list.html:3
 msgid "Audit Logs"
-msgstr ""
+msgstr "Журнал аудіту"
 
 #: cred/templates/credaudit_list.html:7 staff/templates/staff_audit.html:23
 msgid "Action"
@@ -970,7 +970,7 @@ msgstr ""
 
 #: ratticweb/templates/home.html:13
 msgid "Welcome to Rattic"
-msgstr ""
+msgstr "Ласкаво просимо в Rattic"
 
 #: ratticweb/templates/home.html:14
 msgid "RatticDB Logo"
@@ -978,20 +978,20 @@ msgstr ""
 
 #: ratticweb/templates/home.html:15
 msgid "It does passwords."
-msgstr ""
+msgstr "Крисик у нас головний по паролям"
 
 #: ratticweb/templates/navbar.html:16
 #: staff/templates/staff_groupdetail.html:22
 msgid "Passwords"
-msgstr ""
+msgstr "Паролі"
 
 #: ratticweb/templates/navbar.html:20 ratticweb/templates/navbar.html.py:47
 msgid "Change Queue"
-msgstr ""
+msgstr "Черга на зміну"
 
 #: ratticweb/templates/navbar.html:25 ratticweb/templates/navbar.html.py:51
 msgid "Staff Management"
-msgstr ""
+msgstr "Керування користувачами"
 
 #: ratticweb/templates/navbar.html:30 ratticweb/templates/navbar.html.py:64
 msgid "Help"
@@ -1016,7 +1016,7 @@ msgstr ""
 #: ratticweb/templates/sidebar.html:7
 #, python-format
 msgid "Welcome %(username)s."
-msgstr ""
+msgstr "Ласкаво просимо, %(username)s."
 
 #: ratticweb/templates/sidebar.html:8
 msgid "Profile"
@@ -1024,15 +1024,15 @@ msgstr ""
 
 #: ratticweb/templates/sidebar.html:15
 msgid "Add Favourite Tags on the "
-msgstr ""
+msgstr "Додайте улюблені теги на"
 
 #: ratticweb/templates/sidebar.html:16
 msgid "profile"
-msgstr ""
+msgstr "сторінці профілю"
 
 #: ratticweb/templates/sidebar.html:16
 msgid "page to see them here."
-msgstr ""
+msgstr "щоб бачити їх тут."
 
 #: ratticweb/templates/sidebar.html:22
 msgid "If you are a member of any groups, you will see them listed here. "
@@ -1040,7 +1040,7 @@ msgstr ""
 
 #: ratticweb/templates/sidebar.html:31
 msgid "Forgotten password?"
-msgstr ""
+msgstr "Забули пароль?"
 
 #: ratticweb/templates/sidebar.html:36
 msgid "Google Sign-in"
@@ -1061,7 +1061,7 @@ msgstr ""
 #: staff/templates/staff_audit.html:10
 #, python-format
 msgid "Audit Logs for password &apos;%(cred_title)s&apos;"
-msgstr ""
+msgstr "Журнал аудіту для пароля &apos;%(cred_title)s&apos;"
 
 #: staff/templates/staff_audit.html:13
 #, python-format
@@ -1099,7 +1099,7 @@ msgstr "Знищення цієї групи знищить усі паролі 
 #: staff/templates/staff_groupdetail.html:21
 #: staff/templates/staff_home.html:23
 msgid "Users"
-msgstr ""
+msgstr "Користувачі"
 
 #: staff/templates/staff_groupdetail.html:26
 msgid "Delete forever"
@@ -1107,11 +1107,11 @@ msgstr "Знищити назавжди"
 
 #: staff/templates/staff_groupedit.html:6
 msgid "Create Group"
-msgstr ""
+msgstr "Створити групу"
 
 #: staff/templates/staff_groupedit.html:6
 msgid "Edit Group"
-msgstr ""
+msgstr "Редагувати групу"
 
 #: staff/templates/staff_home.html:5
 msgid "Staff"
@@ -1123,11 +1123,11 @@ msgstr ""
 
 #: staff/templates/staff_home.html:12
 msgid "Add User"
-msgstr ""
+msgstr "Додати користувача"
 
 #: staff/templates/staff_home.html:16
 msgid "Add Group"
-msgstr ""
+msgstr "Додати групу"
 
 #: staff/templates/staff_home.html:18
 msgid "Import Keepass"
@@ -1135,7 +1135,7 @@ msgstr ""
 
 #: staff/templates/staff_home.html:19
 msgid "View Trash"
-msgstr ""
+msgstr "Переглянути корзину"
 
 #: staff/templates/staff_home.html:20
 msgid "Audit One Week"
@@ -1143,7 +1143,7 @@ msgstr ""
 
 #: staff/templates/staff_home.html:27
 msgid "email"
-msgstr ""
+msgstr "email"
 
 #: staff/templates/staff_home.html:45
 msgid "Access Groups"
@@ -1155,19 +1155,19 @@ msgstr ""
 
 #: staff/templates/staff_import_overview.html:19
 msgid "Import"
-msgstr ""
+msgstr "Імпорт"
 
 #: staff/templates/staff_import_overview.html:20
 msgid "Skip"
-msgstr ""
+msgstr "Пропустити"
 
 #: staff/templates/staff_import_process.html:10
 msgid "Password Import"
-msgstr ""
+msgstr "Імпорт пароля"
 
 #: staff/templates/staff_keepassimport.html:16
 msgid "Keepass Import"
-msgstr ""
+msgstr "Імпорт з Keepass"
 
 #: staff/templates/staff_keepassimport.html:17
 msgid ""
@@ -1190,12 +1190,12 @@ msgstr "Підтвердити знищення"
 
 #: staff/templates/staff_userdetail.html:23
 msgid "Disable Two Factor"
-msgstr ""
+msgstr "Вимкнути двофакторну авторизацію"
 
 #: staff/templates/staff_useredit.html:6
 msgid "Create User"
-msgstr ""
+msgstr "Створити користувача"
 
 #: staff/templates/staff_useredit.html:6
 msgid "Edit User"
-msgstr ""
+msgstr "Редагувати користувача"
