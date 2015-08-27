@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: RatticWeb\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-17 09:20+1000\n"
-"PO-Revision-Date: 2015-08-27 16:00+0200\n"
+"PO-Revision-Date: 2015-08-27 16:16+0200\n"
 "Last-Translator: Val Budkin <val.budkin@gmail.com>\n"
 "Language-Team: uk <val.budkin@gmail.com>\n"
 "Language: uk\n"
@@ -29,7 +29,7 @@ msgstr "Невірний пароль"
 
 #: account/models.py:56
 msgid "Items per page"
-msgstr ""
+msgstr "Елементів на сторінку"
 
 #: account/models.py:57
 msgid "Favourite tags"
@@ -69,7 +69,7 @@ msgstr "Знищити ключ API"
 #: cred/templates/cred_detail.html:7 cred/templates/cred_list.html:6
 #: ratticweb/templates/base.html:13 staff/templates/staff_home.html:5
 msgid "Rattic"
-msgstr ""
+msgstr "Rattic"
 
 #: account/templates/account_deleteapikey.html:10
 msgid "Please press confirm if you wish to delete this key"
@@ -1115,11 +1115,11 @@ msgstr "Редагувати групу"
 
 #: staff/templates/staff_home.html:5
 msgid "Staff"
-msgstr ""
+msgstr "Користувачі"
 
 #: staff/templates/staff_home.html:8
 msgid "Staff Manage"
-msgstr ""
+msgstr "Керування користувачами"
 
 #: staff/templates/staff_home.html:12
 msgid "Add User"
@@ -1131,7 +1131,7 @@ msgstr "Додати групу"
 
 #: staff/templates/staff_home.html:18
 msgid "Import Keepass"
-msgstr ""
+msgstr "Імпорт Keepass"
 
 #: staff/templates/staff_home.html:19
 msgid "View Trash"
