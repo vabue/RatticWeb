@@ -8,14 +8,16 @@ msgstr ""
 "Project-Id-Version: RatticWeb\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-17 09:20+1000\n"
-"PO-Revision-Date: 2015-08-27 12:10+0200\n"
+"PO-Revision-Date: 2015-08-27 15:21+0200\n"
 "Last-Translator: Val Budkin <val.budkin@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: uk <val.budkin@gmail.com>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.6.10\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: account/models.py:30
 msgid "Old password"
@@ -114,41 +116,41 @@ msgstr ""
 #: account/templates/account_viewapikey.html:4
 #: account/templates/account_viewapikey.html:7
 msgid "New API Key"
-msgstr ""
+msgstr "Новий ключ API"
 
 #: account/templates/account_newapikey.html:20
 #: cred/templates/cred_part_newtagmodal.html:13
 msgid "Create"
-msgstr ""
+msgstr "Створити"
 
 #: account/templates/account_profile.html:7
 msgid "Your Account"
-msgstr ""
+msgstr "Ваш еккаунт"
 
 #: account/templates/account_profile.html:10 cred/models.py:80
 #: cred/templates/cred_detail.html:44 ratticweb/templates/sidebar.html:28
 #: staff/templates/staff_home.html:26
 msgid "Username"
-msgstr ""
+msgstr "Ім´я користувача"
 
 #: account/templates/account_profile.html:11
 #: staff/templates/staff_userdetail.html:32
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: account/templates/account_profile.html:15
 #: account/templates/account_profile.html:21
 msgid "Two Factor Authentication"
-msgstr ""
+msgstr "Двофакторна авторизація"
 
 #: account/templates/account_profile.html:15
 msgid "Enabled"
-msgstr ""
+msgstr "Увімкнуто"
 
 #: account/templates/account_profile.html:15
 #: account/templates/account_tfa_disable.html:12
 msgid "Disable"
-msgstr ""
+msgstr "Вимкнути"
 
 #: account/templates/account_profile.html:16
 msgid "Backup Codes Left"
@@ -160,37 +162,37 @@ msgstr ""
 
 #: account/templates/account_profile.html:21
 msgid "Disabled"
-msgstr ""
+msgstr "Вимкнуто"
 
 #: account/templates/account_profile.html:21
 msgid "Enable now"
-msgstr ""
+msgstr "Увімкнути зараз"
 
 #: account/templates/account_profile.html:24
 msgid "Last Password Change"
-msgstr ""
+msgstr "Остання зміна пароля"
 
 #: account/templates/account_profile.html:25 cred/models.py:85
 #: ratticweb/templates/sidebar.html:18
 #: staff/templates/staff_userdetail.html:33
 msgid "Groups"
-msgstr ""
+msgstr "Групи"
 
 #: account/templates/account_profile.html:30
 msgid "Save Changes"
-msgstr ""
+msgstr "Зберегти значення"
 
 #: account/templates/account_profile.html:35
 msgid "Change password"
-msgstr ""
+msgstr "Змінити пароль"
 
 #: account/templates/account_profile.html:37
 msgid "Set Password"
-msgstr ""
+msgstr "Встановити пароль"
 
 #: account/templates/account_profile.html:43
 msgid "API Keys"
-msgstr ""
+msgstr "Ключи API"
 
 #: account/templates/account_profile.html:51
 msgid "Key Name"
@@ -271,11 +273,11 @@ msgstr ""
 #: ratticweb/templates/navbar.html:59 ratticweb/templates/sidebar.html:26
 #: ratticweb/templates/sidebar.html:30
 msgid "Login"
-msgstr ""
+msgstr "Логін"
 
 #: account/templates/account_tfa_login.html:8
 msgid "Enter your credentials."
-msgstr ""
+msgstr "Введіть ваші облікові дані."
 
 #: account/templates/account_tfa_login.html:11
 #: account/templates/account_tfa_setup.html:28
@@ -404,19 +406,19 @@ msgstr ""
 
 #: account/templates/password_reset_complete.html:9
 msgid "Log in"
-msgstr ""
+msgstr "Увійти"
 
 #: account/templates/password_reset_confirm.html:17
 msgid "New password"
-msgstr ""
+msgstr "Новий пароль"
 
 #: account/templates/password_reset_confirm.html:22
 msgid "Confirm password"
-msgstr ""
+msgstr "Підтвердити пароль"
 
 #: account/templates/password_reset_confirm.html:27
 msgid "Change my password"
-msgstr ""
+msgstr "Змінити мій пароль"
 
 #: account/templates/password_reset_confirm.html:32
 msgid "Password reset unsuccessful"
@@ -494,7 +496,7 @@ msgstr ""
 #: cred/models.py:81 cred/templates/cred_detail.html:54
 #: ratticweb/templates/sidebar.html:29
 msgid "Password"
-msgstr ""
+msgstr "Пароль"
 
 #: cred/models.py:82
 msgid "Markdown Description"
@@ -625,7 +627,7 @@ msgstr ""
 
 #: cred/templates/cred_detail.html:22
 msgid "Hey there!"
-msgstr ""
+msgstr "Привіт!"
 
 #: cred/templates/cred_detail.html:22
 msgid "This credential is an historical version."
@@ -667,11 +669,11 @@ msgstr ""
 #: staff/templates/staff_home.html:47 staff/templates/staff_home.html.py:52
 #: staff/templates/staff_userdetail.html:22
 msgid "Edit"
-msgstr ""
+msgstr "Редагувати"
 
 #: cred/templates/cred_detail.html:30
 msgid "History"
-msgstr ""
+msgstr "Історія"
 
 #: cred/templates/cred_detail.html:31 cred/templates/cred_detail.html.py:99
 #: cred/templates/cred_list.html:31 cred/templates/cred_taglist.html:18
@@ -680,25 +682,25 @@ msgstr ""
 #: staff/templates/staff_home.html:47 staff/templates/staff_home.html.py:53
 #: staff/templates/staff_userdetail.html:24
 msgid "Delete"
-msgstr ""
+msgstr "Знищити"
 
 #: cred/templates/cred_detail.html:33 cred/templates/cred_list.html:37
 #: staff/templates/staff_changeadvice.html:37
 msgid "Add to Change Queue"
-msgstr ""
+msgstr "Додати до черги на зміну"
 
 #: cred/templates/cred_detail.html:36 cred/templates/cred_detail.html:104
 #: cred/templates/cred_list.html:34
 msgid "Undelete"
-msgstr ""
+msgstr "Відновити"
 
 #: cred/templates/cred_detail.html:48 cred/templates/cred_detail.html.py:59
 msgid "Copy"
-msgstr ""
+msgstr "Копіювати"
 
 #: cred/templates/cred_detail.html:64 cred/templates/cred_detail.html.py:67
 msgid "Download"
-msgstr ""
+msgstr "Завантажити"
 
 #: cred/templates/cred_detail.html:67
 msgid "SSH Key"
@@ -710,19 +712,19 @@ msgstr ""
 
 #: cred/templates/cred_detail.html:81
 msgid "Last Changed"
-msgstr ""
+msgstr "Востаннє змінено"
 
 #: cred/templates/cred_detail.html:87
 msgid "Description:"
-msgstr ""
+msgstr "Опис:"
 
 #: cred/templates/cred_edit.html:11
 msgid "Create Password"
-msgstr ""
+msgstr "Створити пароль"
 
 #: cred/templates/cred_edit.html:11
 msgid "Edit Password"
-msgstr ""
+msgstr "Редагувати пароль"
 
 #: cred/templates/cred_edit.html:24 cred/templates/cred_export.html:18
 #: cred/templates/cred_tagedit.html:17 staff/templates/staff_groupedit.html:18
@@ -734,11 +736,11 @@ msgstr ""
 
 #: cred/templates/cred_list.html:28 cred/templates/cred_taglist.html:8
 msgid "Add New"
-msgstr ""
+msgstr "Додати новий"
 
 #: cred/templates/cred_list.html:40
 msgid "Apply a Tag"
-msgstr ""
+msgstr "Примінити тег"
 
 #: cred/templates/cred_list.html:43
 msgid "Download Keepass"
@@ -750,17 +752,17 @@ msgstr ""
 #: staff/templates/staff_import_overview.html:12
 #: staff/templates/staff_userdetail.html:14
 msgid "User"
-msgstr ""
+msgstr "Користувач"
 
 #: cred/templates/cred_list.html:102 cred/templates/cred_list.html.py:104
 #: staff/templates/staff_audit.html:53 staff/templates/staff_audit.html:55
 msgid "Prev"
-msgstr ""
+msgstr "назад"
 
 #: cred/templates/cred_list.html:114 cred/templates/cred_list.html.py:116
 #: staff/templates/staff_audit.html:65 staff/templates/staff_audit.html:67
 msgid "Next"
-msgstr ""
+msgstr "вперед"
 
 #: cred/templates/cred_list.html:124
 msgid "Matched Tags"
@@ -778,19 +780,19 @@ msgstr ""
 
 #: cred/templates/cred_part_export.html:27
 msgid "Export"
-msgstr ""
+msgstr "Експортувати"
 
 #: cred/templates/cred_part_logomodal.html:14
 msgid "Icons"
-msgstr ""
+msgstr "Іконки"
 
 #: cred/templates/cred_part_logomodal.html:24
 msgid "Close"
-msgstr ""
+msgstr "Закрити"
 
 #: cred/templates/cred_part_newtagmodal.html:5
 msgid "Add New Tag"
-msgstr ""
+msgstr "Додати новий тег"
 
 #: cred/templates/cred_part_newtagmodal.html:9
 msgid "Tag Name:"
@@ -802,7 +804,7 @@ msgstr ""
 
 #: cred/templates/cred_part_passgenmodal.html:5
 msgid "Password Generator"
-msgstr ""
+msgstr "Генератор паролів"
 
 #: cred/templates/cred_part_passgenmodal.html:9
 msgid "Must Have"
@@ -814,31 +816,31 @@ msgstr ""
 
 #: cred/templates/cred_part_passgenmodal.html:13
 msgid "Lowercase Alphabet"
-msgstr ""
+msgstr "Маленьки літери"
 
 #: cred/templates/cred_part_passgenmodal.html:18
 msgid "Uppercase Alphabet"
-msgstr ""
+msgstr "Великі літери"
 
 #: cred/templates/cred_part_passgenmodal.html:23
 msgid "Numbers"
-msgstr ""
+msgstr "Цифри"
 
 #: cred/templates/cred_part_passgenmodal.html:28
 msgid "Special"
-msgstr ""
+msgstr "Спецсимволи"
 
 #: cred/templates/cred_part_passgenmodal.html:33
 msgid "Spaces"
-msgstr ""
+msgstr "Пробыли"
 
 #: cred/templates/cred_part_passgenmodal.html:36
 msgid "Password Length"
-msgstr ""
+msgstr "Довжина паролю"
 
 #: cred/templates/cred_part_passgenmodal.html:39
 msgid "Cancel"
-msgstr ""
+msgstr "Відмінити"
 
 #: cred/templates/cred_part_passgenmodal.html:40
 msgid "Generate"
