@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: RatticWeb\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-17 09:20+1000\n"
-"PO-Revision-Date: 2015-08-27 15:21+0200\n"
+"PO-Revision-Date: 2015-08-27 15:35+0200\n"
 "Last-Translator: Val Budkin <val.budkin@gmail.com>\n"
 "Language-Team: uk <val.budkin@gmail.com>\n"
 "Language: uk\n"
@@ -57,7 +57,7 @@ msgstr "Змінити пароль"
 #: account/templates/account_deleteapikey.html:4
 #: account/templates/account_deleteapikey.html:7
 msgid "Delete API Key"
-msgstr ""
+msgstr "Знищити ключ API"
 
 #: account/templates/account_deleteapikey.html:4
 #: account/templates/account_newapikey.html:4
@@ -73,7 +73,7 @@ msgstr ""
 
 #: account/templates/account_deleteapikey.html:10
 msgid "Please press confirm if you wish to delete this key"
-msgstr ""
+msgstr "Підтвердіть, якщо хочете знищити цей ключ"
 
 #: account/templates/account_deleteapikey.html:13
 #: account/templates/account_viewapikey.html:17
@@ -1090,11 +1090,11 @@ msgstr ""
 
 #: staff/templates/staff_groupdetail.html:7
 msgid "Delete Group"
-msgstr ""
+msgstr "Знищити групу"
 
 #: staff/templates/staff_groupdetail.html:8
 msgid "Deleting this group will delete every password underneath it."
-msgstr ""
+msgstr "Знищення цієї групи знищить усі паролі всередені неї."
 
 #: staff/templates/staff_groupdetail.html:21
 #: staff/templates/staff_home.html:23
@@ -1103,7 +1103,7 @@ msgstr ""
 
 #: staff/templates/staff_groupdetail.html:26
 msgid "Delete forever"
-msgstr ""
+msgstr "Знищити назавжди"
 
 #: staff/templates/staff_groupedit.html:6
 msgid "Create Group"
@@ -1186,7 +1186,7 @@ msgstr ""
 
 #: staff/templates/staff_userdetail.html:19
 msgid "Confirm Delete"
-msgstr ""
+msgstr "Підтвердити знищення"
 
 #: staff/templates/staff_userdetail.html:23
 msgid "Disable Two Factor"
